@@ -4,10 +4,14 @@
 The goal of this programming exercise is to get you familiar with working with the quadrotor simulator and implementing a Proportional Derivative (PD) controller. In Week 1, we provided you with a quadrotor GUI in which to tune PD control gains. In this exercise, you will have to implement your own PD controller to control the height of a quadrotor, as well as tune its gains.
 
 # 2 PD Controller
-As you have seen in the lecture, the dynamic equation for the motion of the quadrotor in the z direction is ¨ z = u m −g
-Figure 1: 1D quadrotor model.
+As you have seen in the lecture, the dynamic equation for the motion of the quadrotor in the z direction is
+
+¨ z = u m −g
+
 Hence, the control input for a PD controller is
+
 u = m(¨ zdes + Kpe + Kv ˙ e + g)
+
 where e and ˙ e can be calculated from the current and desired states (z,zdes, ˙ z, ˙ zdes).
 
 # 3 Quadrotor Simulator
