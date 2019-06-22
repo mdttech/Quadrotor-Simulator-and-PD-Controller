@@ -19,3 +19,6 @@ We utilize one of MATLAB’s ODE solvers, called ode45, to simulate the behavior
 
 # 4 Tasks
 You will need to ﬁrst implement a PD controller for height control of the quadrotor. Then, tune the proportional gain (Kp) and derivative gain (Kv) in the ﬁle controller.m until the quadrotor converges quickly and smoothly to a step response input.
+# Output
+
+![output](https://user-images.githubusercontent.com/36922299/59965738-c0abd900-952f-11e9-8700-c42157c2b4e1.png)
